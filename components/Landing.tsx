@@ -1,8 +1,10 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router';
 import React from 'react'
 import Button from './Button'
 
 function Landing() {
+    const router = useRouter();
   return (
     <section className="sticky top-0 mx-auto flex h-screen max-w-[1350px] items-center justify-between px-8">
         <div className="space-y-8">
@@ -13,7 +15,7 @@ function Landing() {
             </h1>
 
             <div className="space-x-8">
-                <Button title="Buy Now"/>
+                <Button title="Buy Now" onClick={() => router.push("/")} />
                 <a href="#" className="link">Learn More</a>
             </div>
         </div>

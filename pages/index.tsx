@@ -21,8 +21,8 @@ interface Props{
 
 
 const Home = ({categories, products}: Props) => {
-  console.log(categories)
-  console.log(products)
+  // console.log(categories)
+  // console.log(products)
 
 
   const showProducts = (category: number) =>{
