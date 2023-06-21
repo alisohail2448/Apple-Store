@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Apple Store
 
-## Getting Started
 
-First, run the development server:
+Apple Store is a modern e-commerce website built with Nextjs with Headless CMS Sanity. It provides a seamless shopping experience with features such as authentication, secure payment integration.
 
-```bash
+UI/UX
+![Apple Store Ui](image.png)
+
+SANITY
+![Sanity Headless CMS](image-1.png)
+
+
+Features
+
+    User Authentication: Secure login and signup functionality for customers.
+    Order Management: Users can browse and place orders for their desired products.
+    Cart Management: Convenient cart functionality for adding, removing, and updating items.
+    Secure Payments: Integration with Razorpay for safe and secure order payments.
+    Admin Dashboard: Comprehensive control panel for managing products, orders, and Using Sanity.
+    Image Upload: Seamless image upload and management using Sanity
+
+Technologies Used
+
+    Frontend: Nextjs, Tailwind, Sanity Headless CMS
+    Payment Integration: Stripe
+
+Getting Started
+
+To run the Apple Store project locally, please follow these steps:
+
+    Clone the repository:
+
+bash
+
+git clone https://github.com/alisohail2448/Apple-Store.git
+
+    Install dependencies for the frontend and backend:
+
+bash
+
+    cd Apple-Store
+    npm install
+    npm run dev
+    cd applestoredesign
+    npm install
+    sanity start
+
+    Configure environment variables:
+
+    Create a .env file in the root directory.
+    Add the necessary environment variables as mentioned in .env.example.
+
+    Run the project:
+
+arduino
+
 npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Open your browser and visit http://localhost:3000 to access the Apple Store application.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+sanity start
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+    Open your browser and visit http://localhost:3333 to access the Apple Store application.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions are welcome! If you'd like to contribute to the Apple Store project, please follow these guidelines:
 
-## Learn More
+    Fork the repository.
+    Create a new branch.
+    Make your changes and commit them.
+    Push your changes to your forked repository.
+    Submit a pull request detailing your changes.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
